@@ -1180,7 +1180,8 @@ blockquote {
       display: block;
       padding-top: 0px;
       line-height: 40px;
-      margin-top: -5px; }
+      margin-top: -5px;
+      white-space: nowrap; }
     header.main-header .main-nav {
       display: none;
       border-top: 4px solid #222;
@@ -1194,11 +1195,11 @@ blockquote {
         display: block;
         width: 100%;
         text-align: left;
-        line-height: 30px; }
+        line-height: 40px; }
         header.main-header .main-nav li a {
           width: 100%;
           padding-left: 30px;
-          line-height: 30px; }
+          line-height: 40px; }
       header.main-header .main-nav.active {
         display: block; }
   .show-menu {
